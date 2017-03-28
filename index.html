@@ -1,0 +1,130 @@
+<html>
+
+<head>
+    <title>Exemplo</title>
+    <style>
+        body {
+            margin: 0px auto;
+        }
+        
+        .topo {
+            width: 100%;
+            height: 20%;
+            background-color: black;
+            color: white;
+            text-align: center;
+            display: inline-block;
+        }
+        
+        .meio {
+            height: 100%;
+            background-color: blueviolet;
+
+        }
+        
+        .rodape {
+            height: 100px;
+            background-color: red;
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+        }
+        
+        .menu {
+            width: 200px;
+            height: 100%;
+            float: left;
+            background-color: darkgoldenrod
+        }
+        
+        #titulo {
+            margin-top: 30px;
+        }
+        
+        ul li a {
+            list-style: none;
+        }
+        
+        ul li a {
+            text-decoration: none;
+        }
+    </style>
+
+    <script>
+        function mostrarMensagem() {
+            var texto = document.getElementById('textoasermostrado').nodeValue
+            alert(valorinformado);
+        }
+    </script>    
+
+</head>
+
+<body>
+    <div class="topo">
+        <h1 id="Titulo">Exemplo de Estilos</h1>
+
+    </div>
+
+    <div class="menu">
+        <div class="corpoMenu">
+            <ul>
+                <li><a href="https://www.google.com.br/">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <ul>
+        </div>
+    </div>
+
+    <div class="meio">
+        <form>
+            <div>
+                <label>button</label>    
+                <input type="button" onclick="mostrarMensagem()" value="Mostrar Mensagem"/>
+                <button onclick="mostrarMensagem()"> Mostra Mensagem </button>
+            </div>
+
+        <div>
+                <label>checkbox</label>    
+                <input type="checkbox" />
+            </div>
+
+        <div>
+                <label>color</label>    
+                <input type="color" />
+            </div>
+
+        <div>
+                <label>date</label>    
+                <input type="date" />
+            </div>
+
+        <div>
+                <label>datetime</label>    
+                <input type="datetime" />
+            </div>
+
+       <div>
+                <label>datetime-local</label>    
+                <input type="datetime-local" />
+            </div>  
+
+       <div>
+                <label>email</label>    
+                <input type="email" />
+            </div> 
+
+    <div>
+                <label>file</label>    
+                <input type="file" />
+            </div> 
+
+            <form>
+
+    </div>
+
+    <div class="rodape">
+        Rodape
+    </div>
+</body>
+
+</html>
